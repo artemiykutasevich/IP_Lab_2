@@ -603,3 +603,155 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.21-18.00.58:937][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
 [2022.09.21-18.00.58:937][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
 [2022.09.21-18.00.59:794][  0]LogCollectionManager: Loaded 0 collections in 0.005106 seconds
+[2022.09.21-18.01.00:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/Collections/' took 0.00s
+[2022.09.21-18.01.00:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/Developers/artem/Collections/' took 0.00s
+[2022.09.21-18.01.00:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/Collections/' took 0.00s
+[2022.09.21-18.01.00:811][  0]LogEngine: Initializing Engine...
+[2022.09.21-18.01.00:871][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.09.21-18.01.01:540][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.09.21-18.01.01:544][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.21-18.01.01:605][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.01.01:690][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.09.21-18.01.01:699][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.09.21-18.01.01:788][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.09.21-18.01.01:788][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.09.21-18.01.01:788][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.09.21-18.01.01:790][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.09.21-18.01.01:790][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.09.21-18.01.01:791][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-18.01.01:791][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-18.01.01:791][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-18.01.01:792][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-18.01.01:792][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-18.01.01:792][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.21-18.01.01:792][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-18.01.01:793][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-18.01.01:794][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-18.01.01:794][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-18.01.01:794][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-18.01.01:878][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.21-18.01.02:023][  0]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.21-18.01.02:024][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-18.01.02:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-18.01.02:027][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-18.01.02:029][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.09.21-18.01.02:029][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.21-18.01.02:031][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.21-18.01.02:031][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.09.21-18.01.02:031][  0]LogInit: FAudioDevice initialized.
+[2022.09.21-18.01.02:031][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.09.21-18.01.02:032][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.09.21-18.01.02:032][  0]LogInit: Texture streaming: Enabled
+[2022.09.21-18.01.02:153][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.09.21-18.01.02:188][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.09.21-18.01.02:259][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.09.21-18.01.02:315][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.09.21-18.01.02:315][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.09.21-18.01.05:590][  0]LogLiveCoding: Display: First instance in process group "UE_BananaCollector_0x86c36457", spawning console
+[2022.09.21-18.01.05:590][  0]LogLiveCoding: Display: Waiting for server
+[2022.09.21-18.01.05:590][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.09.21-18.01.05:595][  0]LogInit: Transaction tracking system initialized
+[2022.09.21-18.01.06:026][  0]BlueprintLog: New page: Editor Load
+[2022.09.21-18.01.07:370][  0]LocalizationService: Localization service is disabled
+[2022.09.21-18.01.07:515][  0]TimingProfiler: Initialize
+[2022.09.21-18.01.07:516][  0]TimingProfiler: OnSessionChanged
+[2022.09.21-18.01.07:517][  0]LoadingProfiler: Initialize
+[2022.09.21-18.01.07:517][  0]LoadingProfiler: OnSessionChanged
+[2022.09.21-18.01.07:519][  0]NetworkingProfiler: Initialize
+[2022.09.21-18.01.07:521][  0]NetworkingProfiler: OnSessionChanged
+[2022.09.21-18.01.07:521][  0]MemoryProfiler: Initialize
+[2022.09.21-18.01.07:521][  0]MemoryProfiler: OnSessionChanged
+[2022.09.21-18.01.08:498][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.09.21-18.01.08:499][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.09.21-18.01.08:499][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.09.21-18.01.10:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/' took 0.00s
+[2022.09.21-18.01.10:753][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.09.21-18.01.11:292][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.09.21-18.01.11:303][  0]SourceControl: Source control is disabled
+[2022.09.21-18.01.11:305][  0]LogUnrealEdMisc: Loading editor; pre map load, took 74.572
+[2022.09.21-18.01.11:308][  0]Cmd: MAP LOAD FILE="../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.21-18.01.11:308][  0]LightingResults: New page: Lighting Build
+[2022.09.21-18.01.11:328][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.01.11:330][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.01.11:331][  0]MapCheck: New page: Map Check
+[2022.09.21-18.01.11:331][  0]LightingResults: New page: Lighting Build
+[2022.09.21-18.01.11:356][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-18.01.11:371][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.09.21-18.01.11:522][  0]LogMaterial: Display: Missing cached shadermap for M_Level in PCD3D_SM5, Default, SM5 (DDC key hash: 1CE93E2C4C0D0395DB75CDE14B9E2914FE574E32), compiling. 
+[2022.09.21-18.01.11:746][  0]LogMaterial: Display: Missing cached shadermap for M_Cube in PCD3D_SM5, Default, SM5 (DDC key hash: 5CD145008394593DA641D2127FDD05346B603043), compiling. 
+[2022.09.21-18.01.11:792][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialMap'.
+[2022.09.21-18.01.11:792][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.21-18.01.11:792][  0]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2022.09.21-18.01.11:792][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.01.11:793][  0]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.21-18.01.11:810][  0]LogStaticMesh: Built static mesh [0.01s] /Game/BananaCollector/Meshes/SM_Cube.SM_Cube
+[2022.09.21-18.01.11:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.21-18.01.11:823][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.09.21-18.01.11:825][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.21-18.01.11:825][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,43ms to complete.
+[2022.09.21-18.01.11:825][  0]LogFileHelpers: Loading map 'TutorialMap' took 0.519
+[2022.09.21-18.01.11:871][  0]LogUnrealEdMisc: Total Editor Startup Time, took 75.138
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: ================================================
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Total job queries 32, among them cache hits 0 (0.00%)
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Shaders Compiled: 32
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Jobs assigned 32, completed 0 (0.00%)
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 6.40 jobs/batch
+[2022.09.21-18.01.11:871][  0]LogShaderCompilers: Display: ================================================
+[2022.09.21-18.01.12:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.01.12:084][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.01.12:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.01.12:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.01.12:217][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:217][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:231][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:231][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:243][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:244][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:253][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:253][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:274][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:274][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:287][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:287][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:295][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:296][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:304][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:304][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:313][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:313][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:325][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.09.21-18.01.12:325][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.21-18.01.12:325][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.09.21-18.01.13:167][  0]LogSlate: Took 0.010324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.21-18.01.13:186][  0]LogSlate: Took 0.008325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.21-18.01.13:197][  0]LogSlate: Took 0.009176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.21-18.01.13:204][  0]LogSlate: Took 0.005985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.21-18.01.13:217][  0]LogSlate: Took 0.010707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.21-18.01.13:265][  0]LogViewport: Scene viewport resized to 1523x555, mode Windowed.
+[2022.09.21-18.01.14:402][  0]LogStall: Startup...
+[2022.09.21-18.01.14:406][  0]LogStall: Startup complete.
+[2022.09.21-18.01.14:537][  0]LogLoad: (Engine Initialization) Total time: 77.80 seconds
+[2022.09.21-18.01.14:537][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.09.21-18.01.14:672][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.09.21-18.01.15:060][  1]LogAssetRegistry: Asset discovery search completed in 40.0431 seconds
+[2022.09.21-18.01.15:094][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2022.09.21-18.01.15:387][  2]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.21-18.01.15:526][  2]LogSlate: Took 0.008575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.21-18.02.20:130][174]LogDerivedDataCache: C:/Users/artem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.113 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.21-18.02.38:246][548]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.21-18.02.39:844][548]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.09.21-18.02.39:859][548]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.09.21-18.02.39:867][548]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.09.21-18.02.39:885][549]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.09.21-18.02.48:917][875]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.09.21-18.02.48:928][875]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.09.21-18.02.57:997][325]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.09.21-18.02.59:351][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.21-18.03.00:781][400]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.21-18.03.00:817][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
