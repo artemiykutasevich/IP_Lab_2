@@ -755,3 +755,870 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.21-18.02.59:351][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
 [2022.09.21-18.03.00:781][400]LogSlate: Window 'Delete Assets' being destroyed
 [2022.09.21-18.03.00:817][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.09.21-18.05.01:644][687]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.09.21-18.05.01:655][687]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.09.21-18.05.01:660][687]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.09.21-18.05.01:670][688]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.09.21-18.05.08:999][ 72]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Player
+[2022.09.21-18.05.09:010][ 72]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.09.21-18.05.31:283][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.21-18.05.31:284][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.06.18:529][294]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.09.21-18.06.18:529][294]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [44950ms] waiting for h/w. InstanceID=1
+[2022.09.21-18.06.18:529][294]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049463s
+[2022.09.21-18.06.21:853][294]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002699s (3.384848s overbudget)
+[2022.09.21-18.06.22:011][294]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15240
+[2022.09.21-18.06.22:011][294]LogViewport: Scene viewport resized to 1134x818, mode Windowed.
+[2022.09.21-18.06.22:151][295]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8ce0c10d-8406-4ddd-91c7-89771bb76d11}, Name=Динамики (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=155.36
+[2022.09.21-18.06.22:151][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.21-18.06.22:217][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xaab358e0000 [can pipeline])
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.173.154.20) port 443 (#0))
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: 00000AAB48817D00: libcurl info message cache 7 (Closing connection 0)
+[2022.09.21-18.06.22:418][300]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.21-18.06.26:436][371]LogViewport: Scene viewport resized to 1139x825, mode Windowed.
+[2022.09.21-18.10.07:424][352]LogSlate: Took 0.007655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.21-18.10.26:688][ 21]LogViewport: Scene viewport resized to 1139x649, mode Windowed.
+[2022.09.21-18.10.50:770][969]LogViewport: Scene viewport resized to 1139x825, mode Windowed.
+[2022.09.21-18.12.11:177][789]BlueprintLog: New page: Compile BP_Player
+[2022.09.21-18.12.11:358][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.09.21-18.12.16:361][928]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.21-18.12.16:374][928]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.21-18.12.16:379][928]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.12.16:380][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.13.11:366][490]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.09.21-18.13.11:383][490]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.09.21-18.13.11:391][490]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.09.21-18.13.11:405][491]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.09.21-18.13.18:596][851]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_Tutorial
+[2022.09.21-18.13.18:607][851]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.09.21-18.13.20:940][963]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/GM_Tutorial.GM_Tutorial
+[2022.09.21-18.13.20:941][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.13.22:746][963]LogViewport: Scene viewport resized to 1139x825, mode Windowed.
+[2022.09.21-18.13.42:630][ 88]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.21-18.13.59:697][307]BlueprintLog: New page: Compile GM_Tutorial
+[2022.09.21-18.13.59:910][307]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2022.09.21-18.14.01:667][345]LogSlate: Window 'GM_Tutorial' being destroyed
+[2022.09.21-18.14.01:695][345]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.14.01:695][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.14.38:722][407]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.21-18.16.15:055][356]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.09.21-18.16.15:055][356]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.09.21-18.16.15:057][356]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.PlayerStart_0
+[2022.09.21-18.16.15:059][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.15:062][356]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.PlayerStart_0
+[2022.09.21-18.16.15:063][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.16:182][415]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.09.21-18.16.16:182][415]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.09.21-18.16.16:184][415]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.PlayerStart_1
+[2022.09.21-18.16.16:184][415]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.16:184][415]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.PlayerStart_1
+[2022.09.21-18.16.16:186][415]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.32:438][ 61]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.34:210][135]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.36:311][224]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.16.40:040][381]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.17.37:055][ 62]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.21-18.17.37:065][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-18.17.37:065][ 62]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 00:17:37)
+[2022.09.21-18.17.37:072][ 62]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.09.21-18.17.37:073][ 62]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.21-18.17.37:073][ 62]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.17.37:088][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013834s)
+[2022.09.21-18.17.37:088][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.014428s)
+[2022.09.21-18.17.37:088][ 62]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.21-18.17.37:088][ 62]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.17.37:089][ 62]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.21-18.17.37:094][ 62]LogPlayLevel: PIE: World Init took: (0.005257s)
+[2022.09.21-18.17.37:186][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2022.09.21-18.17.37:212][ 62]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.21-18.17.37:212][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-18.17.37:212][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-18.17.37:213][ 62]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-18.17.37:213][ 62]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-18.17.37:213][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-18.17.37:215][ 62]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.21-18.17.37:272][ 62]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.21-18.17.37:273][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-18.17.37:273][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-18.17.37:273][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-18.17.37:275][ 62]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.09.21-18.17.37:275][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.09.21-18.17.37:280][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.09.21-18.17.37:280][ 62]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.09.21-18.17.37:280][ 62]LogInit: FAudioDevice initialized.
+[2022.09.21-18.17.37:280][ 62]LogAudio: Display: Audio Device (ID: 2) registered with world 'TutorialMap'.
+[2022.09.21-18.17.37:299][ 62]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.21-18.17.37:302][ 62]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2022.09.21-21.17.37
+[2022.09.21-18.17.37:303][ 62]LogWorld: Bringing up level for play took: 0.003803
+[2022.09.21-18.17.37:310][ 62]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.09.21-18.17.37:386][ 62]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_Player_C]
+[2022.09.21-18.17.37:386][ 62]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Player_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2022.09.21-18.17.37:390][ 62]PIE: Server logged in
+[2022.09.21-18.17.37:393][ 62]PIE: Play in editor total start time 0,33 seconds.
+[2022.09.21-18.17.48:890][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.17.48:890][683]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.17.48:891][683]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.17.48:891][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.17.48:923][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-18.17.48:939][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.17.49:041][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.17.49:042][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.21-18.17.49:047][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.21-18.17.49:202][683]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2022.09.21-18.17.49:320][684]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.09.21-18.18.18:456][884]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.18.19:572][921]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.18.22:305][ 46]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.21-18.18.22:314][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-18.18.22:315][ 46]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 00:18:22)
+[2022.09.21-18.18.22:315][ 46]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.18.22:320][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005439s)
+[2022.09.21-18.18.22:320][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.005581s)
+[2022.09.21-18.18.22:320][ 46]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.21-18.18.22:320][ 46]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.18.22:322][ 46]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.21-18.18.22:344][ 46]LogPlayLevel: PIE: World Init took: (0.023198s)
+[2022.09.21-18.18.22:493][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2022.09.21-18.18.22:500][ 46]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.21-18.18.22:500][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-18.18.22:500][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-18.18.22:501][ 46]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-18.18.22:501][ 46]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-18.18.22:501][ 46]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-18.18.22:505][ 46]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.21-18.18.22:573][ 46]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.21-18.18.22:574][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-18.18.22:575][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-18.18.22:576][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-18.18.22:581][ 46]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.09.21-18.18.22:581][ 46]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.09.21-18.18.22:587][ 46]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.09.21-18.18.22:588][ 46]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.09.21-18.18.22:588][ 46]LogInit: FAudioDevice initialized.
+[2022.09.21-18.18.22:588][ 46]LogAudio: Display: Audio Device (ID: 3) registered with world 'TutorialMap'.
+[2022.09.21-18.18.22:620][ 46]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.21-18.18.22:623][ 46]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2022.09.21-21.18.22
+[2022.09.21-18.18.22:624][ 46]LogWorld: Bringing up level for play took: 0.002811
+[2022.09.21-18.18.22:630][ 46]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.09.21-18.18.22:635][ 46]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_Player_C]
+[2022.09.21-18.18.22:635][ 46]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Player_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2022.09.21-18.18.22:636][ 46]PIE: Server logged in
+[2022.09.21-18.18.22:638][ 46]PIE: Play in editor total start time 0,324 seconds.
+[2022.09.21-18.18.25:877][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.18.25:877][206]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.18.25:877][206]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.18.25:877][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.18.25:899][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-18.18.25:909][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.18.25:973][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.18.25:974][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.21-18.18.25:978][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.21-18.18.25:996][206]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2022.09.21-18.18.26:079][207]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.09.21-18.18.34:820][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.21-18.18.58:688][752]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.09.21-18.18.58:709][752]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.016415 seconds
+[2022.09.21-18.18.58:749][752]LogSavePackage: Moving output files for package: /Game/BananaCollector/Maps/TutorialMap
+[2022.09.21-18.18.58:751][752]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/TutorialMap163BF7724BB1462E4F67AB9345783952.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Maps/TutorialMap.umap'
+[2022.09.21-18.18.58:783][752]LogFileHelpers: No new changes to save!
+[2022.09.21-18.18.58:814][752]AssetCheck: New page: Asset Save: TutorialMap
+[2022.09.21-18.18.58:815][752]LogContentValidation: Display: Validating World /Game/BananaCollector/Maps/TutorialMap.TutorialMap
+[2022.09.21-18.19.00:332][798]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.21-18.19.00:353][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-18.19.00:353][798]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 00:19:00)
+[2022.09.21-18.19.00:353][798]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.19.00:369][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015714s)
+[2022.09.21-18.19.00:369][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.016064s)
+[2022.09.21-18.19.00:370][798]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.21-18.19.00:370][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.19.00:372][798]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.21-18.19.00:383][798]LogPlayLevel: PIE: World Init took: (0.012924s)
+[2022.09.21-18.19.00:494][798]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2022.09.21-18.19.00:496][798]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.21-18.19.00:497][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-18.19.00:497][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-18.19.00:499][798]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-18.19.00:499][798]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-18.19.00:499][798]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-18.19.00:504][798]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.21-18.19.00:589][798]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.21-18.19.00:591][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-18.19.00:591][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-18.19.00:592][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-18.19.00:596][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.09.21-18.19.00:596][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.09.21-18.19.00:602][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.09.21-18.19.00:602][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.09.21-18.19.00:602][798]LogInit: FAudioDevice initialized.
+[2022.09.21-18.19.00:602][798]LogAudio: Display: Audio Device (ID: 4) registered with world 'TutorialMap'.
+[2022.09.21-18.19.00:633][798]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.21-18.19.00:635][798]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2022.09.21-21.19.00
+[2022.09.21-18.19.00:636][798]LogWorld: Bringing up level for play took: 0.002849
+[2022.09.21-18.19.00:644][798]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.09.21-18.19.00:648][798]PIE: Server logged in
+[2022.09.21-18.19.00:651][798]PIE: Play in editor total start time 0,298 seconds.
+[2022.09.21-18.19.08:577][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.19.08:577][218]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.21-18.19.08:577][218]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-18.19.08:577][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.19.08:606][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-18.19.08:617][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-18.19.08:697][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-18.19.08:698][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.09.21-18.19.08:703][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.09.21-18.19.08:725][218]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2022.09.21-18.19.08:819][219]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.09.21-18.20.03:161][771]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.09.21-18.23.14:461][854]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.21-18.23.14:493][854]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.21-18.23.18:430][982]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.21-18.23.18:432][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.21-18.23.20:306][982]LogSlate: Took 0.020646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.21-18.27.49:425][523]LogSlate: Took 0.017680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.09.21-18.28.38:678][359]BlueprintLog: New page: Compile BP_Player
+[2022.09.21-18.28.39:104][359]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2022.09.21-18.29.02:285][971]LogHttp: Warning: 00000AAB6EFCAA00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.21-18.29.02:285][971]LogHttp: Warning: 00000AAB6EFCAA00: request failed, libcurl error: 0 (No error)
+[2022.09.21-18.29.02:285][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xaab358e0c60 [can pipeline])
+[2022.09.21-18.29.02:285][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2022.09.21-18.29.02:285][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.237.233.110) port 443 (#1))
+[2022.09.21-18.29.02:286][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.09.21-18.29.02:286][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 4 (Closing connection 1)
+[2022.09.21-18.29.02:286][971]LogHttp: Warning: 00000AAB6EFCAA00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.09.21-18.29.02:286][971]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.21-18.31.15:395][889]LogEditorTransaction: Undo Add Node
+[2022.09.21-18.33.32:977][270]LogSavePackage: Moving output files for package: /Game/BananaCollector/Blueprints/BP_Player
+[2022.09.21-18.33.32:978][270]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_PlayerA6D5C8DF4E550B17AAB8F19948FB74CA.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Blueprints/BP_Player.uasset'
+[2022.09.21-18.33.33:039][270]AssetCheck: New page: Asset Save: BP_Player
+[2022.09.21-18.33.33:040][270]LogContentValidation: Display: Validating Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.21-18.34.37:406][562]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2022.09.21-18.34.37:410][562]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BananaCollector/Maps/TutorialMap' took 0.204
+[2022.09.21-18.34.37:417][562]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BananaCollector/Blueprints/BP_Player] ([2] browsable assets)...
+[2022.09.21-18.34.37:517][562]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player]
+[2022.09.21-18.34.37:517][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/BananaCollector/Blueprints/BP_Player]
+[2022.09.21-18.34.37:542][562]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto1
+[2022.09.21-18.34.37:542][562]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_Player_Auto17B239CFF47466F72E175799FC7CFCEC7.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto1.uasset'
+[2022.09.21-18.34.37:545][562]LogFileHelpers: Auto-saving content packages took 0.133
+[2022.09.21-18.36.36:666][861]LogSavePackage: Moving output files for package: /Game/BananaCollector/Blueprints/BP_Player
+[2022.09.21-18.36.36:668][861]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_Player47F5743044267CD5318797B7411B71D9.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Blueprints/BP_Player.uasset'
+[2022.09.21-18.36.36:703][861]AssetCheck: New page: Asset Save: BP_Player
+[2022.09.21-18.36.36:703][861]LogContentValidation: Display: Validating Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.21-18.38.21:177][337]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2022.09.21-18.38.26:178][337]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.09.21-18.38.31:178][337]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.09.22-15.54.53:797][338]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15240
+[2022.09.22-15.54.54:438][339]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8ce0c10d-8406-4ddd-91c7-89771bb76d11}, Name=Динамики (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=384.42
+[2022.09.22-15.54.54:439][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.22-15.54.54:473][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.22-15.54.56:476][346]LogHttp: Warning: 00000AAB73914100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xaab358e0c60 [can pipeline])
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.201.207.73) port 443 (#2))
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: 00000AAB73914100: libcurl info message cache 7 (Closing connection 2)
+[2022.09.22-15.54.56:477][346]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.22-15.54.57:125][347]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.09.22-15.54.59:065][353]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0. Error code 37.
+[2022.09.22-15.54.59:065][353]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.09.22-15.54.59:139][353]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.09.22-15.54.59:493][355]LogHttp: Warning: 00000AAB48BD8C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.09.22-15.54.59:493][355]LogHttp: Warning: 00000AAB48BD8C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.09.22-15.54.59:493][355]LogHttp: Warning: 00000AAB48BD8C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.09.22-15.54.59:493][355]LogHttp: Warning: 00000AAB48BD8C00: libcurl info message cache 1 (Closing connection 3)
+[2022.09.22-15.54.59:493][355]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.22-15.55.04:168][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.09.22-15.55.04:172][366]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BananaCollector/Maps/TutorialMap' took 0.061
+[2022.09.22-15.55.04:172][366]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BananaCollector/Blueprints/BP_Player] ([2] browsable assets)...
+[2022.09.22-15.55.04:201][366]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player]
+[2022.09.22-15.55.04:201][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/BananaCollector/Blueprints/BP_Player]
+[2022.09.22-15.55.04:212][366]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto2
+[2022.09.22-15.55.04:212][366]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_Player_Auto217310B7642CCEB1B2C9B1992518F348D.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto2.uasset'
+[2022.09.22-15.55.04:213][366]LogFileHelpers: Auto-saving content packages took 0.042
+[2022.09.22-16.18.38:221][746]LogDerivedDataCache: C:/Users/artem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.031 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.22-17.02.26:862][580]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2022.09.22-17.02.26:862][580]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2022.09.22-17.02.36:407][705]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2022.09.22-17.02.41:407][705]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.09.22-17.02.46:408][705]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.09.22-17.13.01:222][706]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15240
+[2022.09.22-17.13.01:530][706]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8ce0c10d-8406-4ddd-91c7-89771bb76d11}, Name=Динамики (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=262.73
+[2022.09.22-17.13.01:530][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.22-17.13.01:558][707]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xaab358e06c0 [can pipeline])
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.16.98.8) port 443 (#4))
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: 00000AAB48BD3700: libcurl info message cache 7 (Closing connection 4)
+[2022.09.22-17.13.22:959][879]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD812AA0D-4EC9-9B62-D4A9-2197786B7B2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=c43c544c4cd23bbaee2a08959fd3d196%7C79bd293ea2624a8ab087919440f68286%7Ca44202de-da95-4964-8a6e-56f11de7ef85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.09.22-17.16.39:474][176]LogViewport: Scene viewport resized to 2739x823, mode Windowed.
+[2022.09.22-17.16.39:813][176]LogViewport: Scene viewport resized to 2742x846, mode Windowed.
+[2022.09.22-17.16.40:578][177]LogViewport: Scene viewport resized to 2742x813, mode Windowed.
+[2022.09.22-17.16.41:841][197]LogViewport: Scene viewport resized to 2742x819, mode Windowed.
+[2022.09.22-17.16.42:560][209]LogViewport: Scene viewport resized to 2742x820, mode Windowed.
+[2022.09.22-17.17.24:875][551]LogViewport: Scene viewport resized to 1271x495, mode Windowed.
+[2022.09.22-17.17.27:451][551]LogViewport: Scene viewport resized to 1887x359, mode Windowed.
+[2022.09.22-17.18.02:366][122]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2022.09.22-17.18.02:366][122]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2022.09.22-17.22.10:529][415]BlueprintLog: New page: Compile BP_Player
+[2022.09.22-17.22.10:634][415]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2022.09.22-17.22.23:682][978]LogViewport: Scene viewport resized to 1887x360, mode Windowed.
+[2022.09.22-17.22.23:761][978]LogViewport: Scene viewport resized to 1887x378, mode Windowed.
+[2022.09.22-17.22.23:841][978]LogViewport: Scene viewport resized to 1887x391, mode Windowed.
+[2022.09.22-17.22.23:922][978]LogViewport: Scene viewport resized to 1887x404, mode Windowed.
+[2022.09.22-17.22.24:003][978]LogViewport: Scene viewport resized to 1887x417, mode Windowed.
+[2022.09.22-17.22.24:100][978]LogViewport: Scene viewport resized to 1887x442, mode Windowed.
+[2022.09.22-17.22.24:181][978]LogViewport: Scene viewport resized to 1887x466, mode Windowed.
+[2022.09.22-17.22.24:261][978]LogViewport: Scene viewport resized to 1887x511, mode Windowed.
+[2022.09.22-17.22.24:342][978]LogViewport: Scene viewport resized to 1887x565, mode Windowed.
+[2022.09.22-17.22.24:440][978]LogViewport: Scene viewport resized to 1887x604, mode Windowed.
+[2022.09.22-17.22.24:503][978]LogViewport: Scene viewport resized to 1887x635, mode Windowed.
+[2022.09.22-17.22.24:581][978]LogViewport: Scene viewport resized to 1887x653, mode Windowed.
+[2022.09.22-17.22.24:662][978]LogViewport: Scene viewport resized to 1887x659, mode Windowed.
+[2022.09.22-17.22.24:742][978]LogViewport: Scene viewport resized to 1887x663, mode Windowed.
+[2022.09.22-17.22.24:823][978]LogViewport: Scene viewport resized to 1887x674, mode Windowed.
+[2022.09.22-17.22.24:900][978]LogViewport: Scene viewport resized to 1887x684, mode Windowed.
+[2022.09.22-17.22.24:983][978]LogViewport: Scene viewport resized to 1887x694, mode Windowed.
+[2022.09.22-17.22.25:061][978]LogViewport: Scene viewport resized to 1887x701, mode Windowed.
+[2022.09.22-17.22.25:141][978]LogViewport: Scene viewport resized to 1887x704, mode Windowed.
+[2022.09.22-17.22.25:223][978]LogViewport: Scene viewport resized to 1887x708, mode Windowed.
+[2022.09.22-17.22.25:302][978]LogViewport: Scene viewport resized to 1887x712, mode Windowed.
+[2022.09.22-17.22.25:382][978]LogViewport: Scene viewport resized to 1887x714, mode Windowed.
+[2022.09.22-17.22.26:244][978]LogViewport: Scene viewport resized to 1887x715, mode Windowed.
+[2022.09.22-17.22.26:323][978]LogViewport: Scene viewport resized to 1887x721, mode Windowed.
+[2022.09.22-17.22.26:481][978]LogViewport: Scene viewport resized to 1887x728, mode Windowed.
+[2022.09.22-17.22.26:563][978]LogViewport: Scene viewport resized to 1887x749, mode Windowed.
+[2022.09.22-17.22.26:664][978]LogViewport: Scene viewport resized to 1887x784, mode Windowed.
+[2022.09.22-17.22.26:741][978]LogViewport: Scene viewport resized to 1887x807, mode Windowed.
+[2022.09.22-17.22.26:825][978]LogViewport: Scene viewport resized to 1887x818, mode Windowed.
+[2022.09.22-17.22.26:902][978]LogViewport: Scene viewport resized to 1887x824, mode Windowed.
+[2022.09.22-17.22.26:965][978]LogViewport: Scene viewport resized to 1887x827, mode Windowed.
+[2022.09.22-17.22.27:066][978]LogViewport: Scene viewport resized to 1887x832, mode Windowed.
+[2022.09.22-17.22.27:163][978]LogViewport: Scene viewport resized to 1887x839, mode Windowed.
+[2022.09.22-17.22.27:241][978]LogViewport: Scene viewport resized to 1887x841, mode Windowed.
+[2022.09.22-17.22.27:343][978]LogViewport: Scene viewport resized to 1887x842, mode Windowed.
+[2022.09.22-17.22.27:606][978]LogViewport: Scene viewport resized to 1887x841, mode Windowed.
+[2022.09.22-17.22.27:684][978]LogViewport: Scene viewport resized to 1887x835, mode Windowed.
+[2022.09.22-17.22.27:823][978]LogViewport: Scene viewport resized to 1887x821, mode Windowed.
+[2022.09.22-17.22.27:901][978]LogViewport: Scene viewport resized to 1887x816, mode Windowed.
+[2022.09.22-17.22.27:984][978]LogViewport: Scene viewport resized to 1887x812, mode Windowed.
+[2022.09.22-17.22.28:044][978]LogViewport: Scene viewport resized to 1887x807, mode Windowed.
+[2022.09.22-17.22.28:143][978]LogViewport: Scene viewport resized to 1887x804, mode Windowed.
+[2022.09.22-17.22.28:223][978]LogViewport: Scene viewport resized to 1887x803, mode Windowed.
+[2022.09.22-17.22.28:302][978]LogViewport: Scene viewport resized to 1887x801, mode Windowed.
+[2022.09.22-17.22.28:382][978]LogViewport: Scene viewport resized to 1887x800, mode Windowed.
+[2022.09.22-17.22.28:720][978]LogViewport: Scene viewport resized to 1887x791, mode Windowed.
+[2022.09.22-17.22.28:802][978]LogViewport: Scene viewport resized to 1887x767, mode Windowed.
+[2022.09.22-17.22.29:005][978]LogViewport: Scene viewport resized to 1887x691, mode Windowed.
+[2022.09.22-17.22.29:082][978]LogViewport: Scene viewport resized to 1887x674, mode Windowed.
+[2022.09.22-17.22.29:161][978]LogViewport: Scene viewport resized to 1887x669, mode Windowed.
+[2022.09.22-17.22.29:762][978]LogViewport: Scene viewport resized to 1887x670, mode Windowed.
+[2022.09.22-17.22.29:841][978]LogViewport: Scene viewport resized to 1887x671, mode Windowed.
+[2022.09.22-17.22.33:429][ 54]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.22.33:436][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.22.33:437][ 54]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:22:33)
+[2022.09.22-17.22.33:437][ 54]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.22.33:449][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012017s)
+[2022.09.22-17.22.33:449][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.012238s)
+[2022.09.22-17.22.33:449][ 54]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.22.33:449][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.22.33:451][ 54]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.22.33:454][ 54]LogPlayLevel: PIE: World Init took: (0.005532s)
+[2022.09.22-17.22.33:490][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.09.22-17.22.33:492][ 54]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.22.33:492][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.22.33:492][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.22.33:493][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.22.33:493][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.22.33:493][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.22.33:534][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.22.33:555][ 54]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.22.33:556][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.22.33:556][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.22.33:556][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.22.33:556][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.09.22-17.22.33:556][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.09.22-17.22.33:558][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.09.22-17.22.33:558][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.09.22-17.22.33:558][ 54]LogInit: FAudioDevice initialized.
+[2022.09.22-17.22.33:558][ 54]LogAudio: Display: Audio Device (ID: 5) registered with world 'TutorialMap'.
+[2022.09.22-17.22.33:572][ 54]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.22.33:573][ 54]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.22.33
+[2022.09.22-17.22.33:573][ 54]LogWorld: Bringing up level for play took: 0.000755
+[2022.09.22-17.22.33:577][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2022.09.22-17.22.33:581][ 54]PIE: Server logged in
+[2022.09.22-17.22.33:582][ 54]PIE: Play in editor total start time 0,146 seconds.
+[2022.09.22-17.23.27:572][790]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.09.22-17.24.34:935][284]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.24.34:955][284]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.24.34:955][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.24.36:749][356]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.22-17.24.36:750][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.24.41:582][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.24.41:582][458]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.24.41:583][458]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.24.41:583][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.24.41:604][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.24.41:609][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.24.41:639][458]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.22-17.24.41:640][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.09.22-17.24.41:641][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.09.22-17.24.41:646][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.24.41:649][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.09.22-17.24.41:684][459]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.09.22-17.26.38:143][916]BlueprintLog: New page: Compile BP_Player
+[2022.09.22-17.26.38:217][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.09.22-17.26.42:032][ 25]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.26.42:038][ 25]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.26.42:042][ 25]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.26.42:042][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.26.44:623][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.26.44:627][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.26.44:627][116]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:26:44)
+[2022.09.22-17.26.44:627][116]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.26.44:631][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003308s)
+[2022.09.22-17.26.44:631][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003394s)
+[2022.09.22-17.26.44:631][116]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.26.44:631][116]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.26.44:631][116]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.26.44:652][116]LogPlayLevel: PIE: World Init took: (0.021765s)
+[2022.09.22-17.26.44:685][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.09.22-17.26.44:690][116]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.26.44:690][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.26.44:691][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.26.44:691][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.26.44:691][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.26.44:691][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.26.44:693][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.26.44:714][116]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.26.44:714][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.26.44:714][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.26.44:714][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.26.44:715][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.09.22-17.26.44:715][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.09.22-17.26.44:716][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.09.22-17.26.44:716][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.09.22-17.26.44:716][116]LogInit: FAudioDevice initialized.
+[2022.09.22-17.26.44:716][116]LogAudio: Display: Audio Device (ID: 6) registered with world 'TutorialMap'.
+[2022.09.22-17.26.44:725][116]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.26.44:726][116]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.26.44
+[2022.09.22-17.26.44:726][116]LogWorld: Bringing up level for play took: 0.000759
+[2022.09.22-17.26.44:728][116]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.09.22-17.26.44:729][116]PIE: Server logged in
+[2022.09.22-17.26.44:730][116]PIE: Play in editor total start time 0,103 seconds.
+[2022.09.22-17.27.05:490][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.27.05:490][ 44]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.27.05:490][ 44]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.27.05:490][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.27.05:520][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.27.05:526][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.27.05:552][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.27.05:553][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.09.22-17.27.05:554][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.09.22-17.27.05:561][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.09.22-17.27.05:597][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.09.22-17.27.48:656][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.09.22-17.27.48:658][235]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BananaCollector/Maps/TutorialMap' took 0.028
+[2022.09.22-17.27.48:658][235]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BananaCollector/Blueprints/BP_Player] ([2] browsable assets)...
+[2022.09.22-17.27.48:714][235]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player]
+[2022.09.22-17.27.48:714][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/BananaCollector/Blueprints/BP_Player]
+[2022.09.22-17.27.48:721][235]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto3
+[2022.09.22-17.27.48:721][235]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_Player_Auto3FB37F8884FC05F59991F3EB99F4E0B98.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/Autosaves/Game/BananaCollector/Blueprints/BP_Player_Auto3.uasset'
+[2022.09.22-17.27.48:722][235]LogFileHelpers: Auto-saving content packages took 0.065
+[2022.09.22-17.28.05:519][307]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.22-17.28.05:575][307]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.22-17.28.07:163][349]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.22-17.28.07:164][349]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.28.46:516][283]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.09.22-17.28.46:560][283]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.09.22-17.28.50:289][361]LogDerivedDataCache: C:/Users/artem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.024 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.22-17.28.50:908][370]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.09.22-17.29.14:788][927]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.22-17.29.14:835][927]LogSlate: Window 'Project Settings' being destroyed
+[2022.09.22-17.30.11:368][662]LogSavePackage: Moving output files for package: /Game/BananaCollector/Blueprints/BP_Player
+[2022.09.22-17.30.11:369][662]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/BP_Player2564E3424ECC2AF3F38E349A3434409B.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Blueprints/BP_Player.uasset'
+[2022.09.22-17.30.11:388][662]AssetCheck: New page: Asset Save: BP_Player
+[2022.09.22-17.30.11:388][662]LogContentValidation: Display: Validating Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.22-17.30.12:065][685]BlueprintLog: New page: Compile BP_Player
+[2022.09.22-17.30.12:137][685]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2022.09.22-17.30.15:259][782]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.30.15:289][782]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.30.15:292][782]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.30.15:292][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.30.17:195][848]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.30.17:204][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.30.17:204][848]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:30:17)
+[2022.09.22-17.30.17:204][848]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.30.17:209][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004806s)
+[2022.09.22-17.30.17:209][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004915s)
+[2022.09.22-17.30.17:209][848]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.30.17:210][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.30.17:210][848]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.30.17:224][848]LogPlayLevel: PIE: World Init took: (0.014349s)
+[2022.09.22-17.30.17:256][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.22-17.30.17:269][848]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.30.17:269][848]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.30.17:269][848]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.30.17:269][848]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.30.17:269][848]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.30.17:270][848]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.30.17:272][848]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.30.17:291][848]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.30.17:292][848]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.30.17:292][848]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.30.17:292][848]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.30.17:293][848]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.09.22-17.30.17:293][848]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.09.22-17.30.17:294][848]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.09.22-17.30.17:294][848]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.09.22-17.30.17:294][848]LogInit: FAudioDevice initialized.
+[2022.09.22-17.30.17:294][848]LogAudio: Display: Audio Device (ID: 7) registered with world 'TutorialMap'.
+[2022.09.22-17.30.17:305][848]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.30.17:306][848]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.30.17
+[2022.09.22-17.30.17:306][848]LogWorld: Bringing up level for play took: 0.000781
+[2022.09.22-17.30.17:308][848]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.09.22-17.30.17:309][848]PIE: Server logged in
+[2022.09.22-17.30.17:310][848]PIE: Play in editor total start time 0,107 seconds.
+[2022.09.22-17.30.28:860][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.30.28:860][362]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.30.28:860][362]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.30.28:861][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.30.28:893][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.30.28:899][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.30.28:927][362]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.22-17.30.28:927][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.09.22-17.30.28:929][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.09.22-17.30.28:934][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.30.28:936][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.09.22-17.30.28:975][363]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.09.22-17.30.45:023][938]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.30.45:034][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.30.45:034][938]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:30:45)
+[2022.09.22-17.30.45:034][938]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.30.45:037][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003113s)
+[2022.09.22-17.30.45:037][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003189s)
+[2022.09.22-17.30.45:037][938]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.30.45:037][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.30.45:038][938]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.30.45:068][938]LogPlayLevel: PIE: World Init took: (0.031053s)
+[2022.09.22-17.30.45:094][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.09.22-17.30.45:095][938]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.30.45:095][938]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.30.45:095][938]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.30.45:096][938]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.30.45:096][938]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.30.45:096][938]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.30.45:098][938]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.30.45:121][938]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.30.45:121][938]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.30.45:121][938]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.30.45:121][938]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.30.45:122][938]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.09.22-17.30.45:122][938]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.09.22-17.30.45:124][938]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.09.22-17.30.45:124][938]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.09.22-17.30.45:124][938]LogInit: FAudioDevice initialized.
+[2022.09.22-17.30.45:124][938]LogAudio: Display: Audio Device (ID: 8) registered with world 'TutorialMap'.
+[2022.09.22-17.30.45:135][938]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.30.45:136][938]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.30.45
+[2022.09.22-17.30.45:136][938]LogWorld: Bringing up level for play took: 0.000730
+[2022.09.22-17.30.45:138][938]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2022.09.22-17.30.45:139][938]PIE: Server logged in
+[2022.09.22-17.30.45:140][938]PIE: Play in editor total start time 0,106 seconds.
+[2022.09.22-17.30.53:120][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.30.53:121][288]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.30.53:121][288]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.30.53:121][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.30.53:155][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.30.53:161][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.30.53:187][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.30.53:187][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.09.22-17.30.53:188][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.09.22-17.30.53:195][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.09.22-17.30.53:232][289]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.09.22-17.31.22:469][342]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2022.09.22-17.31.22:470][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.31.31:376][513]LogSubobjectSubsystem: Warning: Cannot remove subobject 'DefaultSceneRoot' because it is the default scene root!
+[2022.09.22-17.32.00:657][427]BlueprintLog: New page: Compile BP_Player
+[2022.09.22-17.32.00:724][427]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2022.09.22-17.32.02:605][483]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.32.02:629][483]LogSlate: Window 'BP_Player' being destroyed
+[2022.09.22-17.32.02:633][483]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.32.02:633][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.32.03:975][529]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.32.03:981][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.32.03:981][529]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:32:03)
+[2022.09.22-17.32.03:981][529]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.32.03:984][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003121s)
+[2022.09.22-17.32.03:984][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003206s)
+[2022.09.22-17.32.03:984][529]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.32.03:984][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.32.03:985][529]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.32.04:005][529]LogPlayLevel: PIE: World Init took: (0.021907s)
+[2022.09.22-17.32.04:037][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.09.22-17.32.04:049][529]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.32.04:049][529]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.32.04:049][529]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.32.04:049][529]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.32.04:049][529]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.32.04:050][529]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.32.04:052][529]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.32.04:073][529]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.32.04:073][529]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.32.04:073][529]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.32.04:073][529]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.32.04:074][529]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.09.22-17.32.04:074][529]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.09.22-17.32.04:076][529]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.09.22-17.32.04:076][529]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.09.22-17.32.04:076][529]LogInit: FAudioDevice initialized.
+[2022.09.22-17.32.04:076][529]LogAudio: Display: Audio Device (ID: 9) registered with world 'TutorialMap'.
+[2022.09.22-17.32.04:085][529]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.32.04:086][529]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.32.04
+[2022.09.22-17.32.04:086][529]LogWorld: Bringing up level for play took: 0.000811
+[2022.09.22-17.32.04:088][529]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.09.22-17.32.04:089][529]PIE: Server logged in
+[2022.09.22-17.32.04:090][529]PIE: Play in editor total start time 0,109 seconds.
+[2022.09.22-17.32.14:781][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.32.14:781][  4]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.32.14:781][  4]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.32.14:781][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.32.14:812][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.32.14:819][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.32.14:844][  4]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.22-17.32.14:844][  4]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.09.22-17.32.14:846][  4]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.09.22-17.32.14:850][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.32.14:852][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.09.22-17.32.14:891][  5]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.09.22-17.32.34:880][621]LogMaterial: Display: Missing cached shadermap for M_Banana in PCD3D_SM5, Default, SM5 (DDC key hash: CB89E44F548B610EA885C46886F765B6C1E3FD03), compiling. 
+[2022.09.22-17.32.34:941][621]LogTexture: Display: Building textures: /Game/BananaCollector/Textures/T_Banana_D.T_Banana_D (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.22-17.32.34:941][621]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
+[2022.09.22-17.32.34:941][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.32.35:709][622]LogStaticMesh: Display: Building static mesh SM_Banana...
+[2022.09.22-17.32.35:709][622]LogStaticMesh: Built static mesh [0.11s] /Game/BananaCollector/Meshes/SM_Banana.SM_Banana
+[2022.09.22-17.32.38:629][678]LogShaderCompilers: Display: ================================================
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Total job queries 48, among them cache hits 0 (0.00%)
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Tracking 33 distinct input hashes that result in 23 distinct outputs (69.70%)
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: RAM used: 0.06 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Shaders Compiled: 48
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Jobs assigned 48, completed 33 (68.75%)
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Average time worker was idle: 84673.11 s
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Job execution time: average 12.53 s, max 13.93 s
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Job life time (pending + execution): average 12.58 s, max 14.01
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.63 s
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 5.33 jobs/batch
+[2022.09.22-17.32.38:630][678]LogShaderCompilers: Display: Average processing rate: 1.87 jobs/sec
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display: Effective parallelization: 3.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 2.23 sec, max 2.29 sec, min 2.16 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 2.09 sec, max 2.21 sec, min 1.97 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 2.08 sec, max 2.08 sec, min 2.07 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 1.96 sec, max 1.96 sec, min 1.96 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.92 sec, max 2.08 sec, min 1.76 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.16% of total time (compiled    3 times, average 1.74 sec, max 2.04 sec, min 1.38 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.83% of total time (compiled    2 times, average 2.23 sec, max 2.29 sec, min 2.16 sec)
+[2022.09.22-17.32.38:631][678]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.35% of total time (compiled    2 times, average 2.09 sec, max 2.21 sec, min 1.97 sec)
+[2022.09.22-17.32.38:632][678]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 7.31% of total time (compiled    2 times, average 2.08 sec, max 2.08 sec, min 2.07 sec)
+[2022.09.22-17.32.38:632][678]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.89% of total time (compiled    2 times, average 1.96 sec, max 1.96 sec, min 1.96 sec)
+[2022.09.22-17.32.38:632][678]LogShaderCompilers: Display: ================================================
+[2022.09.22-17.32.43:335][796]LogSlate: Window 'BP_Banana' being destroyed
+[2022.09.22-17.32.43:360][796]LogSlate: Window 'BP_Banana' being destroyed
+[2022.09.22-17.32.43:365][796]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.32.43:365][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.33.09:283][684]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
+[2022.09.22-17.33.09:283][684]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.37.46:273][895]BlueprintLog: New page: Compile BP_Banana
+[2022.09.22-17.37.46:367][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.22-17.37.53:668][123]LogSlate: Window 'BP_Banana' being destroyed
+[2022.09.22-17.37.53:695][123]LogSlate: Window 'BP_Banana' being destroyed
+[2022.09.22-17.37.53:699][123]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.37.53:699][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.38.04:723][490]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.04:723][490]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.04:724][490]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_0
+[2022.09.22-17.38.04:725][490]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_0
+[2022.09.22-17.38.05:527][514]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.05:527][514]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.05:528][514]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_1
+[2022.09.22-17.38.05:529][514]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_1
+[2022.09.22-17.38.07:106][563]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.07:106][563]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.07:107][563]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_2
+[2022.09.22-17.38.07:108][563]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_2
+[2022.09.22-17.38.07:657][579]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.07:657][579]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.07:658][579]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_3
+[2022.09.22-17.38.07:659][579]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_3
+[2022.09.22-17.38.08:690][608]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.08:690][608]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.08:691][608]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_4
+[2022.09.22-17.38.08:692][608]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_4
+[2022.09.22-17.38.09:427][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.09:427][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.09:429][630]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_5
+[2022.09.22-17.38.09:430][630]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_5
+[2022.09.22-17.38.10:537][662]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.10:537][662]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.10:539][662]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_6
+[2022.09.22-17.38.10:539][662]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_6
+[2022.09.22-17.38.11:680][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.11:680][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.11:681][699]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_7
+[2022.09.22-17.38.11:682][699]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_7
+[2022.09.22-17.38.12:694][731]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.12:694][731]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.12:695][731]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_8
+[2022.09.22-17.38.12:696][731]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_8
+[2022.09.22-17.38.13:873][769]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.13:873][769]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.13:875][769]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_9
+[2022.09.22-17.38.13:876][769]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_9
+[2022.09.22-17.38.15:073][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.15:073][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.15:074][804]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_10
+[2022.09.22-17.38.15:075][804]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_10
+[2022.09.22-17.38.15:553][818]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.15:553][818]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.15:554][818]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_11
+[2022.09.22-17.38.15:556][818]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_11
+[2022.09.22-17.38.16:582][844]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.16:582][844]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.16:583][844]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_12
+[2022.09.22-17.38.16:584][844]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_12
+[2022.09.22-17.38.17:152][860]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.17:152][860]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana_C
+[2022.09.22-17.38.17:154][860]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_13
+[2022.09.22-17.38.17:155][860]LogActorFactory: Actor Factory spawned Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana as actor: BP_Banana_C /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_Banana_C_13
+[2022.09.22-17.38.20:126][955]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.22-17.38.20:137][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-17.38.20:137][955]PIE: New page: PIE session: TutorialMap (22 сент. 2022 г., 23:38:20)
+[2022.09.22-17.38.20:137][955]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.38.20:142][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004112s)
+[2022.09.22-17.38.20:142][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004212s)
+[2022.09.22-17.38.20:142][955]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.22-17.38.20:142][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.22-17.38.20:142][955]LogAIModule: Creating AISystem for world TutorialMap
+[2022.09.22-17.38.20:176][955]LogPlayLevel: PIE: World Init took: (0.034497s)
+[2022.09.22-17.38.20:206][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.09.22-17.38.20:223][955]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.22-17.38.20:223][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.22-17.38.20:223][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.22-17.38.20:224][955]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.22-17.38.20:224][955]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.22-17.38.20:224][955]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.22-17.38.20:227][955]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.22-17.38.20:247][955]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Realtek High Definition Audio)
+[2022.09.22-17.38.20:247][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.22-17.38.20:248][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.22-17.38.20:248][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.22-17.38.20:248][955]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.09.22-17.38.20:248][955]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.09.22-17.38.20:250][955]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.09.22-17.38.20:250][955]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.09.22-17.38.20:250][955]LogInit: FAudioDevice initialized.
+[2022.09.22-17.38.20:250][955]LogAudio: Display: Audio Device (ID: 10) registered with world 'TutorialMap'.
+[2022.09.22-17.38.20:261][955]LogLoad: Game class is 'GM_Tutorial_C'
+[2022.09.22-17.38.20:262][955]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2022.09.22-20.38.20
+[2022.09.22-17.38.20:262][955]LogWorld: Bringing up level for play took: 0.000976
+[2022.09.22-17.38.20:264][955]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2022.09.22-17.38.20:266][955]PIE: Server logged in
+[2022.09.22-17.38.20:267][955]PIE: Play in editor total start time 0,129 seconds.
+[2022.09.22-17.38.38:390][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.38.38:390][733]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2022.09.22-17.38.38:390][733]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.22-17.38.38:390][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.38.38:418][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-17.38.38:425][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.22-17.38.38:451][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.22-17.38.38:452][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.09.22-17.38.38:454][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.09.22-17.38.38:459][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-17.38.38:461][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.09.22-17.38.38:508][734]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.09.22-17.38.41:416][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.09.22-17.38.41:431][816]LogSavePackage: Moving output files for package: /Game/BananaCollector/Maps/TutorialMap
+[2022.09.22-17.38.41:432][816]LogSavePackage: Moving '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Saved/TutorialMapB2F1237A47226CE13A43C9BEE0822E1D.tmp' to '../../../../../../Users/artem/OneDrive/Рабочий стол/ИП/IP_Lab_2/Content/BananaCollector/Maps/TutorialMap.umap'
+[2022.09.22-17.38.41:451][816]LogFileHelpers: No new changes to save!
+[2022.09.22-17.38.41:466][816]AssetCheck: New page: Asset Save: TutorialMap
+[2022.09.22-17.38.41:467][816]LogContentValidation: Display: Validating World /Game/BananaCollector/Maps/TutorialMap.TutorialMap
